@@ -1,0 +1,79 @@
+*{
+  margin: 0;
+}
+body{
+  background-color:   #E0E0E0;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 20px;
+}
+.navbar a {
+  float: right;
+  display:block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.mySlides {
+  display:none;
+  width:1341px;
+  height: 650px;
+  margin-bottom: 50px;
+  }
+.text {
+  z-index: 10px;
+  font-family: "Comic Sans MS";
+  color: white;
+  font-size: 60px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  text-align: center;
+  margin-left: 510px;
+}
+.content{
+  font-family: "Comic Sans MS";
+  font-size: 30px;
+  text-align: center;
+  width:630px;
+  padding-left: 370px;
+  margin-bottom: 10px;
+}
+img.pics{
+  width: 35%;
+  height: 380px;
+  float: center;
+  margin-left: 450px;
+  margin-bottom: 30px; 
+  border-radius: 5px;
+  z-index: 10px;
+}
+a.get{
+  text-decoration: none;
+  font-size: 40px;
+  font-family: "Comic Sans MS";
+  border-width: 2px;
+  margin-left: 530px;
+  padding: 10px;
+  outline-width: 2px;
+  outline-color: purple;
+  background-color:  #E0E0E0;
+
+}

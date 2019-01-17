@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Get Started</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+<link rel="stylesheet" type="text/css" href="css/started.css">
+
+</head>
+
+<body>
+
+<div class="navbar">   
+  <a href="contact.html" class="active">Contact Us</a>
+  <a href="login.html">Login/Sign up</a>
+  <a href="home.html">Home</a>
+</div>
+<div style="max-width:1600px" style="margin: 0px">
+  <img class="mySlides" src="group1.jpg" >
+  <div class="text"><p>f.r.i.e.n.d.s</p></div>
+  <img class="mySlides" src="group2.jpg" >
+  <img class="mySlides" src="group5.jpg" >
+  <img class="mySlides" src="group3.jpg" >
+</div>
+
+<script>
+var myIndex = 0;
+slideshow();
+
+function slideshow() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(slideshow, 2300);
+}
+</script>
+
+<div class="content"><p>An amazing experience of diving into the sea of memories and share your happiness with others! Share pictures and lots of happiness and even like theirs to see whose pics are the best!!</p><br><h3>  Share frienship..</h3></div>
+<img src="group4.jpg" class="pics">
+<div class="content"><h3>Share innocence..</h3></div>
+<img src="child.jpg" class="pics">
+<div class="content"><h3>Share fashion..</h3></div>
+<img src="fashion.jpg" class="pics">
+<div class="content"><h3>Share stories..</h3></div>
+<img src="stories.jpg" class="pics">
+<div class="content"><h3>Share cuteness..</h3></div>
+<img src="cuteness.jpg" class="pics">
+<div class="content"><h3>and many more.....</h3></div>
+<a href="home.html" class="get">GET STARTED</a>
+<br><br><br><br><br>  
+</body>
+</html>

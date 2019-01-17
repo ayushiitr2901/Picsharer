@@ -1,0 +1,115 @@
+body{
+  background: url(logi.jpg);
+  background-color:  #F0F0F0;
+  background-repeat: repeat;
+  background-size: 1400px 700px;
+  background-blend-mode: screen;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 1;
+  z-index: 10px;
+}
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar form{
+  padding: 10px 40px;
+  float: right;
+}
+.navbar form input.input{
+  padding: 6px 35px;
+  margin-right: 18px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border-color: gray ;
+  font-family: Comic Sans MS;
+  text-align: left;
+}
+.navbar form input.loginbutton{
+  border-radius: 30px;
+}
+.text1 img.logo{
+    margin-left: 130px;
+    width: 250px;
+    height:150px;
+    border-radius: 50px;
+    margin-top: 100px;
+    float: left;
+    margin-bottom: 50px;
+    
+}
+.text1 {
+  font-family: Comic Sans MS;
+  font-size: 22px;
+  width: 500px;
+  margin-left: 40px;
+  float: left;
+
+
+}
+.create {
+   font-family: Comic Sans MS;
+   float: right;
+   position: relative;
+   margin-top: 70px;
+   font-size: 25px;
+   margin-right: 100px;
+}
+.create form input.input1{
+  padding: 10px 75px;
+  text-align: left;
+  border-radius: 8px;
+  text-align-last: left;
+
+}
+.create form input.button{
+  padding: 8px 55px;
+  float: right;
+  margin-right: 200px;
+  background-color: teal;
+  border-width: 4px;
+  text-align: center;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+
+}
+.create form select{
+  padding: 10px 55px;
+  float: right;
+  position: relative;
+  border-radius: 8px;
+  margin-right: 15px;
+}
+.create form input[name="fullname"]{
+  float: right;
+  margin-right: 10px;
+}
+.create form input[name="mobile"]{
+  float: right;
+  margin-right: 10px;
+}
+.create form input[name="passwords"]{
+  float: right;
+  margin-right: 4px;
+}
+div.navbar img.homeicon{
+  padding-top: 5px;
+  position: relative;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+

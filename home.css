@@ -1,0 +1,119 @@
+body{
+	background-color: #F0F0F0;
+	background-repeat: repeat;
+	background-size: 1400px 700px;
+	background-blend-mode: luminosity;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbar a {
+  float: right;
+  display:block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.logo{
+  float: left;
+  width: 100px;
+  padding-top: 55px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+div.clearfix {
+  box-sizing: border-box;
+ content: "    ";
+  clear: both;
+  display: table;
+  z-index: 10px;
+  background-color: white;
+}
+.search1{
+  float: left;
+ margin-top: 90px; 
+padding-bottom: 8px;
+padding-top: 8px;
+  width: 500px;
+  margin-left: 20px;
+   border-radius: 15px;
+   background-color: #F0F0F0;
+   margin-right: 150px;
+   border: hidden;
+   text-align: left;
+   padding-left: 14px;
+}
+hr{
+  margin:0px;
+}
+.options{
+  padding-top: 70px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.pro{
+  padding-top: 70px;
+  border-radius: 10px;
+  margin-right: 309px;
+}
+.search1 input:focus{
+  outline-width: 0px;
+}
+div.post img.posted{
+  height: 500px;
+  width: 550px;
+}
+.post{
+  float: left;
+  width: 1000px;
+}
+.ayush{
+  margin-left: 200px;
+  background-color: white;
+  width: 570px;
+  display: block;
+  padding-left: 30px;
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+  margin-bottom: 50px;
+
+}
+.ayush p{
+  padding-top: 20px;
+}
+.people{
+  float: right;
+  width: 250px;
+  margin-top: 100px;
+  margin-right: 25px;
+  background-color: white;
+  font-size: 20px;
+  font-family: "Comic Sans MS";
+  text-align: left;
+  padding-left: 20px;
+}
+.button{
+  border:none;
+  background-color: #C0C0C0;
+  padding:10px 10px;
+  display: inline-block;
+  cursor: pointer;
+}
